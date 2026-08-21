@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://toolhome.example/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://toolhome.example/tools/word-counter/</loc></url>
-  <url><loc>https://toolhome.example/tools/character-counter/</loc></url>
-  <url><loc>https://toolhome.example/tools/case-converter/</loc></url>
-  <url><loc>https://toolhome.example/tools/remove-duplicate-lines/</loc></url>
-  <url><loc>https://toolhome.example/tools/sort-lines/</loc></url>
-  <url><loc>https://toolhome.example/tools/remove-extra-spaces/</loc></url>
-  <url><loc>https://toolhome.example/tools/remove-line-breaks/</loc></url>
-  <url><loc>https://toolhome.example/tools/find-and-replace/</loc></url>
-  <url><loc>https://toolhome.example/tools/reading-time/</loc></url>
-  <url><loc>https://toolhome.example/tools/url-slug-generator/</loc></url>
+  <url><loc>https://debugleaf.com/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://debugleaf.com/tools/word-counter/</loc></url>
+  <url><loc>https://debugleaf.com/tools/character-counter/</loc></url>
+  <url><loc>https://debugleaf.com/tools/case-converter/</loc></url>
+  <url><loc>https://debugleaf.com/tools/remove-duplicate-lines/</loc></url>
+  <url><loc>https://debugleaf.com/tools/sort-lines/</loc></url>
+  <url><loc>https://debugleaf.com/tools/remove-extra-spaces/</loc></url>
+  <url><loc>https://debugleaf.com/tools/remove-line-breaks/</loc></url>
+  <url><loc>https://debugleaf.com/tools/find-and-replace/</loc></url>
+  <url><loc>https://debugleaf.com/tools/reading-time/</loc></url>
+  <url><loc>https://debugleaf.com/tools/url-slug-generator/</loc></url>
 </urlset>
