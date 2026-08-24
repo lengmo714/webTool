@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://debugleaf.com/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://debugleaf.com/tools/word-counter/</loc></url>
-  <url><loc>https://debugleaf.com/tools/character-counter/</loc></url>
-  <url><loc>https://debugleaf.com/tools/case-converter/</loc></url>
-  <url><loc>https://debugleaf.com/tools/remove-duplicate-lines/</loc></url>
-  <url><loc>https://debugleaf.com/tools/sort-lines/</loc></url>
-  <url><loc>https://debugleaf.com/tools/remove-extra-spaces/</loc></url>
-  <url><loc>https://debugleaf.com/tools/remove-line-breaks/</loc></url>
-  <url><loc>https://debugleaf.com/tools/find-and-replace/</loc></url>
-  <url><loc>https://debugleaf.com/tools/reading-time/</loc></url>
-  <url><loc>https://debugleaf.com/tools/url-slug-generator/</loc></url>
-  <url><loc>https://debugleaf.com/tools/text-diff-checker/</loc></url>
+  <url><loc>https://debugleaf.com/</loc><lastmod>2026-08-24</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://debugleaf.com/tools/word-counter/</loc><lastmod>2026-08-24</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/character-counter/</loc><lastmod>2026-08-24</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/case-converter/</loc><lastmod>2026-08-24</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/remove-duplicate-lines/</loc><lastmod>2026-08-24</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/sort-lines/</loc><lastmod>2026-08-24</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/remove-extra-spaces/</loc><lastmod>2026-08-24</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/remove-line-breaks/</loc><lastmod>2026-08-24</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/find-and-replace/</loc><lastmod>2026-08-24</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/reading-time/</loc><lastmod>2026-08-24</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/url-slug-generator/</loc><lastmod>2026-08-24</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/text-diff-checker/</loc><lastmod>2026-08-24</lastmod></url>
 </urlset>
