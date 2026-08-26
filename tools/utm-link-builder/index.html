@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="Create tagged campaign URLs with utm_source, utm_medium, utm_campaign, and more using this free online UTM link builder."
+    />
+    <meta
+      name="keywords"
+      content="utm link builder online,create campaign url,utm parameter generator,marketing url builder"
+    />
+    <link rel="canonical" href="https://debugleaf.com/tools/utm-link-builder/" />
+    <title>UTM Link Builder - Create Tagged Campaign URLs Online | Tool Home</title>
+    <link rel="icon" href="../../favicon.svg" />
+    <link rel="stylesheet" href="../../style.css" />
+    <link rel="stylesheet" href="../../tool.css" />
+    <link rel="stylesheet" href="../../ads.css" />
+    <link rel="stylesheet" href="../../generator-tools.css" />
+    <link rel="stylesheet" href="../../utility-pages.css" />
+    <script
+      async
+      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3160571902547760"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="../../"><img src="../../favicon.svg" alt="" /><span>Tool<span>Home</span></span></a>
+      <nav><a href="../../#tools">All tools</a><a href="../../#faq">FAQ</a></nav>
+    </header>
+    <main class="tool-page">
+      <p class="crumbs"><a href="../../">Home</a> / <a href="../../#tools">Tools</a> / UTM Link Builder</p>
+      <p class="eyebrow">Free online marketing tool</p>
+      <h1>UTM Link Builder</h1>
+      <p class="lead">Build campaign URLs with clean UTM parameters, preserve existing query strings when needed, and copy the final link instantly.</p>
+
+      <section class="tool-shell">
+        <div class="split-layout">
+          <div class="panel-stack">
+            <div class="field-grid">
+              <label class="field-full" for="utm-base-url">Landing-page URL<input id="utm-base-url" type="text" placeholder="https://debugleaf.com/blog/tool-home" /></label>
+              <label for="utm-source">utm_source<input id="utm-source" type="text" placeholder="newsletter" /></label>
+              <label for="utm-medium">utm_medium<input id="utm-medium" type="text" placeholder="email" /></label>
+              <label for="utm-campaign">utm_campaign<input id="utm-campaign" type="text" placeholder="summer-launch" /></label>
+              <label for="utm-term">utm_term<input id="utm-term" type="text" placeholder="productivity tools" /></label>
+              <label class="field-full" for="utm-content">utm_content<input id="utm-content" type="text" placeholder="hero-button" /></label>
+            </div>
+            <label class="toggle-line" for="utm-preserve"><input id="utm-preserve" type="checkbox" checked /> Preserve existing query parameters</label>
+            <div class="tool-controls">
+              <button id="utm-copy-url" type="button">Copy URL</button>
+              <button id="utm-copy-query" type="button">Copy query string</button>
+              <button id="utm-clear" class="alt" type="button">Clear</button>
+            </div>
+            <p class="inline-hint">If you enter a domain without a protocol, the tool assumes <code>https://</code>.</p>
+          </div>
+          <div class="summary-card">
+            <p id="utm-status" class="status-note info" aria-live="polite">Enter a landing-page URL to build a tagged campaign link.</p>
+            <label class="output-label" for="utm-result">Final URL</label>
+            <textarea id="utm-result" class="readonly-output" readonly placeholder="Your tagged campaign URL appears here..."></textarea>
+            <label class="output-label" for="utm-query">Query string only</label>
+            <textarea id="utm-query" class="readonly-output" readonly placeholder="utm_source=...&utm_medium=..."></textarea>
+            <ul id="utm-summary" class="preview-list"></ul>
+          </div>
+        </div>
+      </section>
+
+      <aside class="ad-space" aria-label="Advertisement">Advertisement</aside>
+
+      <article class="tool-content">
+        <h2>What is a UTM link builder?</h2>
+        <p>A UTM link builder adds tracking parameters to a destination URL so analytics tools can attribute visits to specific channels, campaigns, keywords, or placements. This page builds the final URL in your browser and never sends the data elsewhere.</p>
+
+        <h2>How to use the UTM builder</h2>
+        <ol>
+          <li>Enter the landing-page URL for your campaign.</li>
+          <li>Fill in the UTM fields you need, such as source, medium, and campaign.</li>
+          <li>Copy the full tagged URL or just the query string for reuse.</li>
+        </ol>
+
+        <h2>Common uses</h2>
+        <ul>
+          <li>Create clean URLs for email, paid social, or partner campaigns.</li>
+          <li>Preserve existing query parameters while adding tracking tags.</li>
+          <li>Share consistent naming patterns across a marketing team.</li>
+        </ul>
+
+        <h2>Related tools</h2>
+        <p class="related"><a href="../url-slug-generator/">URL Slug Generator</a><a href="../character-counter/">Character Counter</a><a href="../find-and-replace/">Find and Replace</a></p>
+      </article>
+    </main>
+    <script src="../../utm-link-builder.js"></script>
+  </body>
+</html>
