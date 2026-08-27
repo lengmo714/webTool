@@ -14,7 +14,9 @@ const tools = [
   ['email-extractor', 'utility', '@', 'Email Extractor', 'Extract and deduplicate every email address hidden inside text.', 'extract email addresses from text online'],
   ['lorem-ipsum-generator', 'utility', '¶', 'Lorem Ipsum Generator', 'Generate placeholder text by paragraphs, sentences, or words.', 'free lorem ipsum generator placeholder text'],
   ['json-formatter-validator', 'utility', '{}', 'JSON Formatter & Validator', 'Format, minify, validate, and sort JSON entirely in your browser.', 'json formatter validator online format minify json'],
-  ['utm-link-builder', 'utility', 'UTM', 'UTM Link Builder', 'Build tagged campaign URLs with clean UTM parameters and instant previews.', 'utm link builder online campaign url generator']
+  ['utm-link-builder', 'utility', 'UTM', 'UTM Link Builder', 'Build tagged campaign URLs with clean UTM parameters and instant previews.', 'utm link builder online campaign url generator'],
+  ['base64-encoder-decoder', 'utility', '64', 'Base64 Encoder & Decoder', 'Encode plain text, decode Base64, and generate URL-safe Base64 in your browser.', 'base64 encoder decoder online url safe base64 converter'],
+  ['unix-timestamp-converter', 'utility', 'TS', 'Unix Timestamp Converter', 'Convert epoch seconds or milliseconds into readable UTC and local time.', 'unix timestamp converter online epoch to date converter']
 ].map(([slug, cat, icon, name, desc, keywords]) => ({ slug, cat, icon, name, desc, keywords }));
 
 const grid = document.querySelector('#tools-grid');
