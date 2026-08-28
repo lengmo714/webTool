@@ -1,0 +1,86 @@
+name: Notify Bing with IndexNow
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  submit-changed-urls:
+    runs-on: ubuntu-latest
+    env:
+      SITE_URL: https://debugleaf.com
+      INDEXNOW_KEY: 00e47624a218415380d21b85b382ea0c
+      INDEXNOW_ENDPOINT: https://www.bing.com/indexnow
+    steps:
+      - name: Check out pushed revision
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Wait for the IndexNow key file to be published
+        shell: bash
+        run: |
+          set -euo pipefail
+          key_url="$SITE_URL/$INDEXNOW_KEY.txt"
+          for attempt in {1..10}; do
+            published_key="$(curl --fail --silent --show-error --max-time 15 "$key_url" | tr -d '\r\n' || true)"
+            if [ "$published_key" = "$INDEXNOW_KEY" ]; then
+              echo "IndexNow key file is live."
+              exit 0
+            fi
+            echo "Key file is not live yet (attempt $attempt/10); retrying in 30 seconds."
+            sleep 30
+          done
+          echo "IndexNow key file was not available after waiting for deployment." >&2
+          exit 1
+
+      - name: Submit changed pages to Bing
+        shell: bash
+        run: |
+          set -euo pipefail
+          before="${{ github.event.before }}"
+          after="${{ github.sha }}"
+          zero_sha="0000000000000000000000000000000000000000"
+          if [ "$before" = "$zero_sha" ] || [ -z "$before" ]; then
+            changed_files="$(git diff-tree --no-commit-id --name-only -r "$after")"
+          else
+            changed_files="$(git diff --name-only "$before" "$after")"
+          fi
+
+          urls="$(while IFS= read -r file; do
+            case "$file" in
+              tools/*/*)
+                slug="${file#tools/}"
+                slug="${slug%%/*}"
+                printf '%s/tools/%s/\n' "$SITE_URL" "$slug"
+                ;;
+              index.html|app.js|style.css|tool.css|ads.css|generator-tools.css|utility-pages.css|diff.css|frequency.css|robots.txt|sitemap.xml|CNAME)
+                printf '%s/\n' "$SITE_URL"
+                ;;
+            esac
+          done <<< "$changed_files" | sort -u)"
+
+          if [ -z "$urls" ]; then
+            echo "No crawlable page changed; nothing to submit."
+            exit 0
+          fi
+
+          key_location="$SITE_URL/$INDEXNOW_KEY.txt"
+          while IFS= read -r url; do
+            [ -n "$url" ] || continue
+            status="$(curl --silent --show-error --output /dev/null --write-out '%{http_code}' --get \
+              --data-urlencode "url=$url" \
+              --data-urlencode "key=$INDEXNOW_KEY" \
+              --data-urlencode "keyLocation=$key_location" \
+              "$INDEXNOW_ENDPOINT")"
+            if [ "$status" != "200" ] && [ "$status" != "202" ]; then
+              echo "IndexNow rejected $url with HTTP $status." >&2
+              exit 1
+            fi
+            echo "Submitted $url to Bing (HTTP $status)."
+          done <<< "$urls"
