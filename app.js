@@ -16,7 +16,9 @@ const tools = [
   ['json-formatter-validator', 'utility', '{}', 'JSON Formatter & Validator', 'Format, minify, validate, and sort JSON entirely in your browser.', 'json formatter validator online format minify json'],
   ['utm-link-builder', 'utility', 'UTM', 'UTM Link Builder', 'Build tagged campaign URLs with clean UTM parameters and instant previews.', 'utm link builder online campaign url generator'],
   ['base64-encoder-decoder', 'utility', '64', 'Base64 Encoder & Decoder', 'Encode plain text, decode Base64, and generate URL-safe Base64 in your browser.', 'base64 encoder decoder online url safe base64 converter'],
-  ['unix-timestamp-converter', 'utility', 'TS', 'Unix Timestamp Converter', 'Convert epoch seconds or milliseconds into readable UTC and local time.', 'unix timestamp converter online epoch to date converter']
+  ['unix-timestamp-converter', 'utility', 'TS', 'Unix Timestamp Converter', 'Convert epoch seconds or milliseconds into readable UTC and local time.', 'unix timestamp converter online epoch to date converter'],
+  ['url-encoder-decoder', 'utility', '%', 'URL Encoder & Decoder', 'Encode text for URLs or decode percent-encoded strings with clear error feedback.', 'url encoder decoder online percent encode decode url component'],
+  ['html-entity-encoder-decoder', 'utility', '&amp;', 'HTML Entity Encoder & Decoder', 'Encode HTML-sensitive characters or decode named and numeric entities locally.', 'html entity encoder decoder online decode html entities escape html text']
 ].map(([slug, cat, icon, name, desc, keywords]) => ({ slug, cat, icon, name, desc, keywords }));
 
 const grid = document.querySelector('#tools-grid');
