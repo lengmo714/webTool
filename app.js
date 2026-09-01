@@ -22,7 +22,9 @@ const tools = [
   ['password-generator', 'utility', '***', 'Strong Password Generator', 'Create a random password with your chosen length and character types, entirely in your browser.', 'strong password generator online random secure custom password length'],
   ['hex-rgb-color-converter', 'utility', 'RGB', 'HEX to RGB Color Converter', 'Convert HEX colors to RGB and HSL codes with a live CSS color preview.', 'hex to rgb color converter online rgb to hex hsl css color code'],
   ['css-gradient-generator', 'utility', '◒', 'CSS Gradient Generator', 'Create linear CSS gradients with two colors, an angle control, and copy-ready code.', 'css gradient generator online linear gradient css code generator'],
-  ['regex-tester', 'utility', '.*', 'Regular Expression Tester', 'Test JavaScript regular expressions against sample text and inspect each match locally.', 'regular expression tester online javascript regex match tester']
+  ['regex-tester', 'utility', '.*', 'Regular Expression Tester', 'Test JavaScript regular expressions against sample text and inspect each match locally.', 'regular expression tester online javascript regex match tester'],
+  ['csv-to-json-converter', 'utility', 'CSV', 'CSV to JSON Converter', 'Convert pasted CSV into JSON objects or arrays with header support and delimiter detection.', 'csv to json converter online convert csv rows to json in browser'],
+  ['sha256-hash-generator', 'utility', 'SHA', 'SHA-256 Hash Generator', 'Generate SHA-256 digests in hex or Base64 directly in your browser.', 'sha256 hash generator online browser checksum tool']
 ].map(([slug, cat, icon, name, desc, keywords]) => ({ slug, cat, icon, name, desc, keywords }));
 
 const grid = document.querySelector('#tools-grid');

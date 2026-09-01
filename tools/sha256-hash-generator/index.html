@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-WSBDKFCL');</script>
+<!-- End Google Tag Manager -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="Generate a SHA-256 hash online in your browser, inspect the hex and Base64 digest, and keep your input private with this free client-side tool."
+    />
+    <meta
+      name="keywords"
+      content="sha256 hash generator online,generate sha 256 in browser,sha256 checksum tool online,text to sha256 hash"
+    />
+    <link rel="canonical" href="https://debugleaf.com/tools/sha256-hash-generator/" />
+    <title>SHA-256 Hash Generator - Create SHA-256 Digests Online | Tool Home</title>
+    <link rel="icon" href="../../favicon.svg" />
+    <link rel="stylesheet" href="../../style.css" />
+    <link rel="stylesheet" href="../../tool.css" />
+    <link rel="stylesheet" href="../../ads.css" />
+    <link rel="stylesheet" href="../../generator-tools.css" />
+    <link rel="stylesheet" href="../../utility-pages.css" />
+    <script
+      async
+      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3160571902547760"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WSBDKFCL" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+    <header class="topbar">
+      <a class="brand" href="../../"><img src="../../favicon.svg" alt="" /><span>Tool<span>Home</span></span></a>
+      <nav><a href="../../#tools">All tools</a><a href="../../#faq">FAQ</a></nav>
+    </header>
+    <main class="tool-page">
+      <p class="crumbs"><a href="../../">Home</a> / <a href="../../#tools">Tools</a> / SHA-256 Hash Generator</p>
+      <p class="eyebrow">Free online security utility</p>
+      <h1>SHA-256 Hash Generator</h1>
+      <p class="lead">Create a SHA-256 digest from any text, inspect the hex and Base64 outputs, and keep the full operation inside your browser.</p>
+
+      <section class="tool-shell">
+        <div class="split-layout">
+          <div class="panel-stack">
+            <label class="tool-label" for="sha-source">Text input</label>
+            <textarea id="sha-source" placeholder="Paste text, a token payload, or any message you want to hash."></textarea>
+            <div class="tool-controls">
+              <button id="sha-generate" type="button">Generate SHA-256</button>
+              <button id="sha-sample" type="button">Load sample</button>
+              <button id="sha-clear" class="alt" type="button">Clear</button>
+            </div>
+            <p class="inline-hint">This tool uses the browser's Web Crypto API, so your input is not uploaded.</p>
+          </div>
+          <div class="summary-card">
+            <p id="sha-status" class="status-note info" aria-live="polite">Type or paste text to generate its SHA-256 digest.</p>
+            <label class="output-label" for="sha-hex">Hex digest</label>
+            <textarea id="sha-hex" class="readonly-output" readonly placeholder="64-character SHA-256 hex digest"></textarea>
+            <div class="button-row">
+              <button id="sha-copy-hex" type="button">Copy hex</button>
+            </div>
+            <label class="output-label" for="sha-base64">Base64 digest</label>
+            <textarea id="sha-base64" class="readonly-output" readonly placeholder="Base64-encoded digest"></textarea>
+            <div class="button-row">
+              <button id="sha-copy-base64" type="button">Copy Base64</button>
+            </div>
+            <ul id="sha-facts" class="preview-list"></ul>
+          </div>
+        </div>
+      </section>
+
+      <aside class="ad-space" aria-label="Advertisement">Advertisement</aside>
+
+      <article class="tool-content">
+        <h2>What is a SHA-256 hash?</h2>
+        <p>SHA-256 is a one-way cryptographic hash function that turns input text into a fixed-length 256-bit fingerprint. Even a small change to the original input produces a very different digest.</p>
+
+        <h2>How to use this SHA-256 generator</h2>
+        <ol>
+          <li>Paste or type the text you want to hash.</li>
+          <li>Select Generate SHA-256 to calculate the digest instantly.</li>
+          <li>Copy the hex or Base64 output for verification, logging, or comparisons.</li>
+        </ol>
+
+        <h2>Common use cases</h2>
+        <ul>
+          <li>Generate a checksum for text-based inputs during debugging or QA.</li>
+          <li>Verify that two messages match without comparing them manually.</li>
+          <li>Inspect or share a digest in hex or Base64 format for tooling workflows.</li>
+        </ul>
+
+        <h2>Related tools</h2>
+        <p class="related"><a href="../base64-encoder-decoder/">Base64 Encoder &amp; Decoder</a><a href="../json-formatter-validator/">JSON Formatter &amp; Validator</a><a href="../regex-tester/">Regular Expression Tester</a></p>
+      </article>
+    </main>
+    <script src="../../sha256-hash-generator.js"></script>
+  </body>
+</html>

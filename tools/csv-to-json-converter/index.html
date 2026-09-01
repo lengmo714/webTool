@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-WSBDKFCL');</script>
+<!-- End Google Tag Manager -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="Convert CSV to JSON online with header support, delimiter detection, and browser-based parsing. Free client-side CSV to JSON conversion."
+    />
+    <meta
+      name="keywords"
+      content="csv to json converter online,convert csv rows to json in browser,csv parser with headers,json array from csv"
+    />
+    <link rel="canonical" href="https://debugleaf.com/tools/csv-to-json-converter/" />
+    <title>CSV to JSON Converter - Convert CSV Rows to JSON Online | Tool Home</title>
+    <link rel="icon" href="../../favicon.svg" />
+    <link rel="stylesheet" href="../../style.css" />
+    <link rel="stylesheet" href="../../tool.css" />
+    <link rel="stylesheet" href="../../ads.css" />
+    <link rel="stylesheet" href="../../generator-tools.css" />
+    <link rel="stylesheet" href="../../utility-pages.css" />
+    <script
+      async
+      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3160571902547760"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WSBDKFCL" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+    <header class="topbar">
+      <a class="brand" href="../../"><img src="../../favicon.svg" alt="" /><span>Tool<span>Home</span></span></a>
+      <nav><a href="../../#tools">All tools</a><a href="../../#faq">FAQ</a></nav>
+    </header>
+    <main class="tool-page">
+      <p class="crumbs"><a href="../../">Home</a> / <a href="../../#tools">Tools</a> / CSV to JSON Converter</p>
+      <p class="eyebrow">Free online data utility</p>
+      <h1>CSV to JSON Converter</h1>
+      <p class="lead">Turn pasted CSV into JSON arrays or objects, detect common delimiters, and keep the entire conversion inside your browser tab.</p>
+
+      <section class="tool-shell">
+        <div class="split-layout">
+          <div class="panel-stack">
+            <label class="tool-label" for="csv-source">CSV input</label>
+            <textarea id="csv-source" placeholder='Paste CSV text here, for example: name,email,plan'></textarea>
+            <div class="compact-controls">
+              <label for="csv-delimiter">Delimiter
+                <select id="csv-delimiter">
+                  <option value="auto">Auto-detect</option>
+                  <option value=",">Comma</option>
+                  <option value=";">Semicolon</option>
+                  <option value="tab">Tab</option>
+                  <option value="|">Pipe</option>
+                </select>
+              </label>
+              <label class="toggle-line" for="csv-headers">
+                <input id="csv-headers" type="checkbox" checked />
+                Use first row as keys
+              </label>
+              <div class="tool-controls">
+                <button id="csv-convert" type="button">Convert</button>
+                <button id="csv-compact" type="button">Compact JSON</button>
+              </div>
+            </div>
+            <div class="tool-controls">
+              <button id="csv-sample" type="button">Load sample</button>
+              <button id="csv-clear" class="alt" type="button">Clear</button>
+            </div>
+            <p class="inline-hint">Quoted values, escaped quotes, commas, semicolons, tabs, and pipe-delimited files are supported.</p>
+          </div>
+          <div class="summary-card">
+            <p id="csv-status" class="status-note info" aria-live="polite">Paste CSV text to convert it into JSON.</p>
+            <label class="output-label" for="csv-result">JSON output</label>
+            <textarea id="csv-result" class="readonly-output" readonly placeholder="Converted JSON appears here..."></textarea>
+            <div class="button-row">
+              <button id="csv-copy" type="button">Copy JSON</button>
+            </div>
+            <ul id="csv-facts" class="preview-list"></ul>
+          </div>
+        </div>
+      </section>
+
+      <aside class="ad-space" aria-label="Advertisement">Advertisement</aside>
+
+      <article class="tool-content">
+        <h2>What does this CSV to JSON converter do?</h2>
+        <p>This tool parses pasted CSV text in your browser, recognizes common delimiters, and converts rows into JSON objects or arrays. It is useful when you need to inspect exported data, prepare fixtures, or move spreadsheet rows into developer tooling.</p>
+
+        <h2>How to convert CSV to JSON</h2>
+        <ol>
+          <li>Paste the CSV content you want to convert.</li>
+          <li>Leave delimiter detection on, or choose a specific delimiter if you know it.</li>
+          <li>Select Convert or Compact JSON, then copy the generated output.</li>
+        </ol>
+
+        <h2>When this tool is useful</h2>
+        <ul>
+          <li>Turn spreadsheet exports into JSON for APIs, mocks, or test fixtures.</li>
+          <li>Inspect quoted CSV fields before importing data somewhere else.</li>
+          <li>Convert headers into object keys for easier debugging and reading.</li>
+        </ul>
+
+        <h2>Related tools</h2>
+        <p class="related"><a href="../json-formatter-validator/">JSON Formatter &amp; Validator</a><a href="../find-and-replace/">Find and Replace</a><a href="../remove-duplicate-lines/">Remove Duplicate Lines</a></p>
+      </article>
+    </main>
+    <script src="../../csv-to-json-converter.js"></script>
+  </body>
+</html>
