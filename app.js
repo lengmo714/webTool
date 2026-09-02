@@ -24,7 +24,9 @@ const tools = [
   ['css-gradient-generator', 'utility', '◒', 'CSS Gradient Generator', 'Create linear CSS gradients with two colors, an angle control, and copy-ready code.', 'css gradient generator online linear gradient css code generator'],
   ['regex-tester', 'utility', '.*', 'Regular Expression Tester', 'Test JavaScript regular expressions against sample text and inspect each match locally.', 'regular expression tester online javascript regex match tester'],
   ['csv-to-json-converter', 'utility', 'CSV', 'CSV to JSON Converter', 'Convert pasted CSV into JSON objects or arrays with header support and delimiter detection.', 'csv to json converter online convert csv rows to json in browser'],
-  ['sha256-hash-generator', 'utility', 'SHA', 'SHA-256 Hash Generator', 'Generate SHA-256 digests in hex or Base64 directly in your browser.', 'sha256 hash generator online browser checksum tool']
+  ['sha256-hash-generator', 'utility', 'SHA', 'SHA-256 Hash Generator', 'Generate SHA-256 digests in hex or Base64 directly in your browser.', 'sha256 hash generator online browser checksum tool'],
+  ['uuid-generator', 'utility', 'ID', 'UUID Generator', 'Generate UUID v4 identifiers in batches with uppercase and hyphen-free output options.', 'uuid generator online bulk uuid v4 generator hyphenless uuid tool'],
+  ['jwt-decoder', 'utility', 'JWT', 'JWT Decoder', 'Decode JWT header and payload JSON locally and inspect standard token claims.', 'jwt decoder online decode jwt in browser inspect token payload']
 ].map(([slug, cat, icon, name, desc, keywords]) => ({ slug, cat, icon, name, desc, keywords }));
 
 const grid = document.querySelector('#tools-grid');

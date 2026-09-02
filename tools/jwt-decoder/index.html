@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-WSBDKFCL');</script>
+<!-- End Google Tag Manager -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="Decode a JWT online in your browser, inspect the header and payload JSON, and check standard time claims without sending the token to a server."
+    />
+    <meta
+      name="keywords"
+      content="jwt decoder online,decode jwt in browser,jwt payload viewer,jwt header payload parser free"
+    />
+    <link rel="canonical" href="https://debugleaf.com/tools/jwt-decoder/" />
+    <title>JWT Decoder - Decode JWT Header and Payload Online | Tool Home</title>
+    <link rel="icon" href="../../favicon.svg" />
+    <link rel="stylesheet" href="../../style.css" />
+    <link rel="stylesheet" href="../../tool.css" />
+    <link rel="stylesheet" href="../../ads.css" />
+    <link rel="stylesheet" href="../../generator-tools.css" />
+    <link rel="stylesheet" href="../../utility-pages.css" />
+    <script
+      async
+      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3160571902547760"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WSBDKFCL" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+    <header class="topbar">
+      <a class="brand" href="../../"><img src="../../favicon.svg" alt="" /><span>Tool<span>Home</span></span></a>
+      <nav><a href="../../#tools">All tools</a><a href="../../#faq">FAQ</a></nav>
+    </header>
+    <main class="tool-page">
+      <p class="crumbs"><a href="../../">Home</a> / <a href="../../#tools">Tools</a> / JWT Decoder</p>
+      <p class="eyebrow">Free online token utility</p>
+      <h1>JWT Decoder</h1>
+      <p class="lead">Inspect a JWT header and payload locally, pretty-print the JSON, and review common claims such as issued, not-before, and expiration times.</p>
+
+      <section class="tool-shell">
+        <div class="split-layout">
+          <div class="panel-stack">
+            <label class="tool-label" for="jwt-source">JWT token</label>
+            <textarea id="jwt-source" placeholder="Paste a JWT here: header.payload.signature"></textarea>
+            <div class="tool-controls">
+              <button id="jwt-decode" type="button">Decode JWT</button>
+              <button id="jwt-sample" type="button">Load sample</button>
+              <button id="jwt-clear" class="alt" type="button">Clear</button>
+            </div>
+            <p class="inline-hint">This tool decodes a token locally for inspection. It does not verify the signature.</p>
+          </div>
+          <div class="summary-card">
+            <p id="jwt-status" class="status-note info" aria-live="polite">Paste a JWT to inspect its decoded header and payload.</p>
+            <label class="output-label" for="jwt-header">Header JSON</label>
+            <textarea id="jwt-header" class="readonly-output" readonly placeholder="Decoded JWT header"></textarea>
+            <div class="button-row">
+              <button id="jwt-copy-header" type="button">Copy header</button>
+            </div>
+            <label class="output-label" for="jwt-payload">Payload JSON</label>
+            <textarea id="jwt-payload" class="readonly-output" readonly placeholder="Decoded JWT payload"></textarea>
+            <div class="button-row">
+              <button id="jwt-copy-payload" type="button">Copy payload</button>
+            </div>
+            <ul id="jwt-facts" class="preview-list"></ul>
+          </div>
+        </div>
+      </section>
+
+      <aside class="ad-space" aria-label="Advertisement">Advertisement</aside>
+
+      <article class="tool-content">
+        <h2>What this JWT decoder shows</h2>
+        <p>This tool decodes the Base64URL-encoded header and payload segments from a JSON Web Token directly in your browser. It helps you inspect claims and metadata without sending tokens to a server.</p>
+
+        <h2>How to decode a JWT</h2>
+        <ol>
+          <li>Paste the token into the JWT field.</li>
+          <li>Select Decode JWT to pretty-print the header and payload.</li>
+          <li>Review the standard claims, then copy either JSON block if you need it elsewhere.</li>
+        </ol>
+
+        <h2>Important limitation</h2>
+        <p>Decoding a JWT is not the same as verifying it. This page does not confirm the signature, issuer, audience, or trustworthiness of the token. Use it for inspection and debugging only.</p>
+
+        <h2>Related tools</h2>
+        <p class="related"><a href="../base64-encoder-decoder/">Base64 Encoder &amp; Decoder</a><a href="../json-formatter-validator/">JSON Formatter &amp; Validator</a><a href="../sha256-hash-generator/">SHA-256 Hash Generator</a></p>
+      </article>
+    </main>
+    <script src="../../jwt-decoder.js"></script>
+  </body>
+</html>
