@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+  <head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-WSBDKFCL');</script>
+<!-- End Google Tag Manager -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="Check WCAG color contrast online with HEX colors, live preview text, and pass or fail results for AA and AAA accessibility targets."
+    />
+    <meta
+      name="keywords"
+      content="color contrast checker online,wcag contrast ratio checker,hex accessibility contrast tool,aa aaa contrast calculator"
+    />
+    <link rel="canonical" href="https://debugleaf.com/tools/color-contrast-checker/" />
+    <title>Color Contrast Checker - WCAG HEX Contrast Ratio Tool | Tool Home</title>
+    <link rel="icon" href="../../favicon.svg" />
+    <link rel="stylesheet" href="../../style.css" />
+    <link rel="stylesheet" href="../../tool.css" />
+    <link rel="stylesheet" href="../../ads.css" />
+    <link rel="stylesheet" href="../../generator-tools.css" />
+    <link rel="stylesheet" href="../../utility-pages.css" />
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3160571902547760" crossorigin="anonymous"></script>
+  </head>
+  <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WSBDKFCL" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+    <header class="topbar">
+      <a class="brand" href="../../"><img src="../../favicon.svg" alt="" /><span>Tool<span>Home</span></span></a>
+      <nav><a href="../../#tools">All tools</a><a href="../../#faq">FAQ</a></nav>
+    </header>
+    <main class="tool-page">
+      <p class="crumbs"><a href="../../">Home</a> / <a href="../../#tools">Tools</a> / Color Contrast Checker</p>
+      <p class="eyebrow">Free browser accessibility utility</p>
+      <h1>Color Contrast Checker</h1>
+      <p class="lead">Compare foreground and background HEX colors, preview sample text, and see WCAG AA and AAA contrast results directly in your browser.</p>
+
+      <section class="tool-shell">
+        <div class="split-layout">
+          <div class="panel-stack">
+            <div class="field-grid">
+              <label for="contrast-foreground">Foreground HEX
+                <input id="contrast-foreground" type="text" value="#111827" placeholder="#111827" />
+              </label>
+              <label for="contrast-background">Background HEX
+                <input id="contrast-background" type="text" value="#FFFFFF" placeholder="#FFFFFF" />
+              </label>
+              <label class="field-full" for="contrast-sample">Preview text
+                <input id="contrast-sample" type="text" value="Accessible design starts with readable contrast." />
+              </label>
+            </div>
+            <div class="tool-controls">
+              <button id="contrast-check" type="button">Check contrast</button>
+              <button id="contrast-swap" type="button">Swap colors</button>
+            </div>
+            <div class="tool-controls">
+              <button id="contrast-sample-fill" type="button">Load sample pair</button>
+              <button id="contrast-clear" class="alt" type="button">Reset</button>
+            </div>
+            <p class="inline-hint">Use full six-digit or short three-digit HEX values. The checker normalizes them before calculating contrast.</p>
+          </div>
+          <div class="summary-card">
+            <p id="contrast-status" class="status-note info" aria-live="polite">Choose a foreground and background HEX color, then run the checker.</p>
+            <div class="contrast-ratio-box">
+              <b>Contrast ratio</b>
+              <strong id="contrast-ratio">--</strong>
+            </div>
+            <div id="contrast-preview" class="contrast-preview-card">
+              <p>Preview updates after you run the checker.</p>
+              <span>Choose two HEX colors to compare.</span>
+            </div>
+            <ul id="contrast-facts" class="preview-list"></ul>
+          </div>
+        </div>
+      </section>
+
+      <aside class="ad-space" aria-label="Advertisement">Advertisement</aside>
+
+      <article class="tool-content">
+        <h2>What does a color contrast checker measure?</h2>
+        <p>This tool calculates the contrast ratio between a text color and its background using WCAG relative luminance. The result helps you estimate whether a color pair is readable enough for standard-size text, large text, buttons, labels, and interface copy.</p>
+
+        <h2>How to check contrast for accessibility</h2>
+        <ol>
+          <li>Enter the foreground and background HEX colors you want to compare.</li>
+          <li>Optional: replace the preview sentence with your own sample text.</li>
+          <li>Run the checker to see the ratio plus AA and AAA pass or fail guidance.</li>
+        </ol>
+
+        <h2>When this tool helps</h2>
+        <ul>
+          <li>Review landing pages, dashboards, and design systems for readable text combinations.</li>
+          <li>Compare brand colors before shipping new buttons, alerts, or banners.</li>
+          <li>Quickly test light-on-dark and dark-on-light pairs without opening design software.</li>
+        </ul>
+
+        <h2>Related tools</h2>
+        <p class="related"><a href="../hex-rgb-color-converter/">HEX to RGB Color Converter</a><a href="../css-gradient-generator/">CSS Gradient Generator</a><a href="../url-encoder-decoder/">URL Encoder &amp; Decoder</a></p>
+      </article>
+    </main>
+    <script src="../../color-contrast-checker.js"></script>
+  </body>
+</html>

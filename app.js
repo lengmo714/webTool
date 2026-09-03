@@ -26,7 +26,9 @@ const tools = [
   ['csv-to-json-converter', 'utility', 'CSV', 'CSV to JSON Converter', 'Convert pasted CSV into JSON objects or arrays with header support and delimiter detection.', 'csv to json converter online convert csv rows to json in browser'],
   ['sha256-hash-generator', 'utility', 'SHA', 'SHA-256 Hash Generator', 'Generate SHA-256 digests in hex or Base64 directly in your browser.', 'sha256 hash generator online browser checksum tool'],
   ['uuid-generator', 'utility', 'ID', 'UUID Generator', 'Generate UUID v4 identifiers in batches with uppercase and hyphen-free output options.', 'uuid generator online bulk uuid v4 generator hyphenless uuid tool'],
-  ['jwt-decoder', 'utility', 'JWT', 'JWT Decoder', 'Decode JWT header and payload JSON locally and inspect standard token claims.', 'jwt decoder online decode jwt in browser inspect token payload']
+  ['jwt-decoder', 'utility', 'JWT', 'JWT Decoder', 'Decode JWT header and payload JSON locally and inspect standard token claims.', 'jwt decoder online decode jwt in browser inspect token payload'],
+  ['roman-numeral-converter', 'utility', 'XIV', 'Roman Numeral Converter', 'Convert numbers to Roman numerals or Roman numerals back to numbers with strict validation.', 'roman numeral converter online number to roman numeral calculator'],
+  ['color-contrast-checker', 'utility', 'AA', 'Color Contrast Checker', 'Check WCAG contrast ratios for foreground and background HEX colors with a live preview.', 'color contrast checker online wcag aa aaa hex contrast ratio tool']
 ].map(([slug, cat, icon, name, desc, keywords]) => ({ slug, cat, icon, name, desc, keywords }));
 
 const grid = document.querySelector('#tools-grid');
