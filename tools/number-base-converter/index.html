@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+  <head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-WSBDKFCL');</script>
+<!-- End Google Tag Manager -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="Convert integers between binary, decimal, octal, hexadecimal, and custom bases from 2 to 36 online with instant browser-based results."
+    />
+    <meta
+      name="keywords"
+      content="number base converter online,binary to decimal converter,hexadecimal to decimal converter,base 2 to 36 converter,integer radix converter"
+    />
+    <link rel="canonical" href="https://debugleaf.com/tools/number-base-converter/" />
+    <title>Number Base Converter - Binary, Decimal, Hex, and Base 36 | Tool Home</title>
+    <link rel="icon" href="../../favicon.svg" />
+    <link rel="stylesheet" href="../../style.css" />
+    <link rel="stylesheet" href="../../tool.css" />
+    <link rel="stylesheet" href="../../ads.css" />
+    <link rel="stylesheet" href="../../generator-tools.css" />
+    <link rel="stylesheet" href="../../utility-pages.css" />
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3160571902547760" crossorigin="anonymous"></script>
+  </head>
+  <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WSBDKFCL" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+    <header class="topbar">
+      <a class="brand" href="../../"><img src="../../favicon.svg" alt="" /><span>Tool<span>Home</span></span></a>
+      <nav><a href="../../#tools">All tools</a><a href="../../#faq">FAQ</a></nav>
+    </header>
+    <main class="tool-page">
+      <p class="crumbs"><a href="../../">Home</a> / <a href="../../#tools">Tools</a> / Number Base Converter</p>
+      <p class="eyebrow">Free browser developer utility</p>
+      <h1>Number Base Converter</h1>
+      <p class="lead">Convert integers between binary, decimal, octal, hexadecimal, and any base from 2 to 36 without sending your data anywhere.</p>
+
+      <section class="tool-shell">
+        <div class="split-layout">
+          <div class="panel-stack">
+            <div class="field-grid">
+              <label class="field-full" for="base-source-value">Integer to convert
+                <input id="base-source-value" type="text" inputmode="text" placeholder="7B or 1111011" />
+              </label>
+              <label for="base-source-base">Source base
+                <select id="base-source-base">
+                  <option value="2">Base 2</option>
+                  <option value="8">Base 8</option>
+                  <option value="10" selected>Base 10</option>
+                  <option value="16">Base 16</option>
+                  <option value="36">Base 36</option>
+                </select>
+              </label>
+              <label for="base-target-base">Target base
+                <select id="base-target-base">
+                  <option value="2">Base 2</option>
+                  <option value="8">Base 8</option>
+                  <option value="10">Base 10</option>
+                  <option value="16" selected>Base 16</option>
+                  <option value="36">Base 36</option>
+                </select>
+              </label>
+            </div>
+            <div class="tool-controls">
+              <button id="base-convert" type="button">Convert number</button>
+              <button id="base-swap" type="button">Swap bases</button>
+            </div>
+            <div class="tool-controls">
+              <button id="base-copy" type="button">Copy result</button>
+              <button id="base-sample" type="button">Load sample</button>
+              <button id="base-clear" class="alt" type="button">Clear</button>
+            </div>
+            <p class="inline-hint">Use digits 0-9 and letters A-Z. This tool accepts integers only, including negative values.</p>
+          </div>
+          <div class="summary-card">
+            <p id="base-status" class="status-note info" aria-live="polite">Enter an integer, choose the source and target bases, then run the conversion.</p>
+            <label class="output-label" for="base-output">Target base output</label>
+            <textarea id="base-output" class="readonly-output" readonly placeholder="Your converted value appears here..."></textarea>
+            <div class="value-grid">
+              <div class="value-card"><b>Decimal</b><span id="base-decimal">--</span></div>
+              <div class="value-card"><b>Binary</b><span id="base-binary">--</span></div>
+              <div class="value-card"><b>Octal</b><span id="base-octal">--</span></div>
+              <div class="value-card"><b>Hex</b><span id="base-hex">--</span></div>
+            </div>
+            <ul id="base-facts" class="preview-list"></ul>
+          </div>
+        </div>
+      </section>
+
+      <aside class="ad-space" aria-label="Advertisement">Advertisement</aside>
+
+      <article class="tool-content">
+        <h2>What does a number base converter do?</h2>
+        <p>This tool interprets an integer in one radix, converts it to decimal internally, and then rewrites it in the base you choose. It is useful for binary flags, octal permissions, hexadecimal values, encoded IDs, and other developer-facing formats.</p>
+
+        <h2>How to convert between number bases</h2>
+        <ol>
+          <li>Paste the integer you want to convert.</li>
+          <li>Select the base the input currently uses and the base you want as output.</li>
+          <li>Run the conversion and copy the target-base result or the decimal, binary, octal, and hex views.</li>
+        </ol>
+
+        <h2>When this tool helps</h2>
+        <ul>
+          <li>Inspect binary feature flags, masks, and bit patterns.</li>
+          <li>Translate hexadecimal values for CSS colors, debug logs, or system output.</li>
+          <li>Quickly move between decimal IDs and compact base-36 or base-16 representations.</li>
+        </ul>
+
+        <h2>Related tools</h2>
+        <p class="related"><a href="../roman-numeral-converter/">Roman Numeral Converter</a><a href="../sha256-hash-generator/">SHA-256 Hash Generator</a><a href="../base64-encoder-decoder/">Base64 Encoder &amp; Decoder</a></p>
+      </article>
+    </main>
+    <script src="../../number-base-converter.js"></script>
+  </body>
+</html>

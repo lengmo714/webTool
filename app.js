@@ -28,7 +28,9 @@ const tools = [
   ['uuid-generator', 'utility', 'ID', 'UUID Generator', 'Generate UUID v4 identifiers in batches with uppercase and hyphen-free output options.', 'uuid generator online bulk uuid v4 generator hyphenless uuid tool'],
   ['jwt-decoder', 'utility', 'JWT', 'JWT Decoder', 'Decode JWT header and payload JSON locally and inspect standard token claims.', 'jwt decoder online decode jwt in browser inspect token payload'],
   ['roman-numeral-converter', 'utility', 'XIV', 'Roman Numeral Converter', 'Convert numbers to Roman numerals or Roman numerals back to numbers with strict validation.', 'roman numeral converter online number to roman numeral calculator'],
-  ['color-contrast-checker', 'utility', 'AA', 'Color Contrast Checker', 'Check WCAG contrast ratios for foreground and background HEX colors with a live preview.', 'color contrast checker online wcag aa aaa hex contrast ratio tool']
+  ['color-contrast-checker', 'utility', 'AA', 'Color Contrast Checker', 'Check WCAG contrast ratios for foreground and background HEX colors with a live preview.', 'color contrast checker online wcag aa aaa hex contrast ratio tool'],
+  ['number-base-converter', 'utility', '2/16', 'Number Base Converter', 'Convert integers between binary, decimal, octal, hexadecimal, and any base from 2 to 36.', 'number base converter online binary decimal hexadecimal converter base 2 to 36'],
+  ['markdown-to-html-converter', 'utility', 'MD', 'Markdown to HTML Converter', 'Turn Markdown into escaped HTML with a live preview for headings, lists, links, and code blocks.', 'markdown to html converter online markdown preview html output tool']
 ].map(([slug, cat, icon, name, desc, keywords]) => ({ slug, cat, icon, name, desc, keywords }));
 
 const grid = document.querySelector('#tools-grid');
