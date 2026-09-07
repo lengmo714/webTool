@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-WSBDKFCL');</script>
+<!-- End Google Tag Manager -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="Compare two lists online to find shared entries, A-only entries, B-only entries, and their union. Ignore case or trim spaces with local processing."
+    />
+    <meta
+      name="keywords"
+      content="compare two lists online common items,list intersection and difference tool,find unique lines between two lists"
+    />
+    <link rel="canonical" href="https://debugleaf.com/tools/list-compare/" />
+    <title>List Compare - Find Common and Unique Lines in Two Lists | Tool Home</title>
+    <link rel="icon" href="../../favicon.svg" />
+    <link rel="stylesheet" href="../../style.css" />
+    <link rel="stylesheet" href="../../tool.css" />
+    <link rel="stylesheet" href="../../ads.css" />
+    <link rel="stylesheet" href="../../generator-tools.css" />
+    <link rel="stylesheet" href="../../utility-pages.css" />
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3160571902547760" crossorigin="anonymous"></script>
+  </head>
+  <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WSBDKFCL" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+    <header class="topbar">
+      <a class="brand" href="../../"><img src="../../favicon.svg" alt="" /><span>Tool<span>Home</span></span></a>
+      <nav><a href="../../#tools">All tools</a><a href="../../#faq">FAQ</a></nav>
+    </header>
+    <main class="tool-page">
+<p class="crumbs"><a href="../../">Home</a> / <a href="../../#tools">Tools</a> / List Compare</p>
+<p class="eyebrow">Free browser utility</p><h1>List Compare</h1><p class="lead">Find entries shared by two lists or unique to either one, regardless of their line order.</p>
+<section class="tool-shell"><div class="panel-stack"><div class="field-grid"><label for="source">List A<textarea id="source" placeholder="One entry per line"></textarea></label><label for="second">List B<textarea id="second" placeholder="One entry per line"></textarea></label></div><label class="toggle-line"><input id="trim" type="checkbox" checked /> Trim surrounding spaces</label><label class="toggle-line"><input id="ignore-case" type="checkbox" /> Ignore case</label><div class="field-grid"><label for="mode">Result to show<select id="mode"><option value="common">In both lists</option><option value="onlyA">Only in A</option><option value="onlyB">Only in B</option><option value="union">All unique entries</option><option value="different">In exactly one list</option></select></label></div>
+<div class="tool-controls"><button id="sample" type="button">Load sample</button><button id="copy" type="button">Copy result</button><button id="clear" class="alt" type="button">Clear</button></div>
+<div class="summary-card"><p id="status" class="status-note info" aria-live="polite"></p><label class="output-label" for="output">Selected entries</label><textarea id="output" class="readonly-output" readonly></textarea></div></div></section>
+<aside class="ad-space" aria-label="Advertisement">Advertisement</aside>
+<article class="tool-content"><h2>How to compare two lists</h2><ol><li>Paste one entry per line into lists A and B.</li><li>Choose whether to trim spaces and ignore case.</li><li>Select shared entries, entries unique to either list, or the combined set. Copy the result.</li></ol><h2>How matching works</h2><p>Empty lines are skipped and repeated entries count once. With trimming enabled, whitespace-only lines are also skipped. Case-insensitive matching uses JavaScript lowercase conversion; accents and Unicode normalization are not changed. Results retain the first spelling encountered, after optional trimming.</p><h2>Order and practical uses</h2><p>Shared and A-only results follow list A order; B-only results follow list B order. Combined results show A entries first, then previously unseen B entries. Compare keyword inventories, product identifiers, or configuration lists. Unlike a text diff, this tool compares membership rather than line positions. It does not parse CSV columns.</p><h2>Does my input leave the browser?</h2><p>The tool processes your input locally with JavaScript. No account or upload is needed.</p><h2>Related tools</h2><p class="related"><a href="../remove-duplicate-lines/">Remove Duplicate Lines</a><a href="../text-diff-checker/">Text Diff Checker</a><a href="../sort-lines/">Sort Lines</a></p></article>
+</main><script src="../../list-compare.js"></script></body></html>
