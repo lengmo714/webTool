@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-WSBDKFCL');</script>
+<!-- End Google Tag Manager -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="Normalize Unicode text to NFC, NFD, NFKC, or NFKD and inspect code points before and after normalization in your browser."
+    />
+    <meta
+      name="keywords"
+      content="unicode normalization tool online,nfc nfd text normalizer,nfkc compatibility normalization"
+    />
+    <link rel="canonical" href="https://debugleaf.com/tools/unicode-text-normalizer/" />
+    <title>Unicode Text Normalizer - NFC, NFD, NFKC and NFKD | Tool Home</title>
+    <link rel="icon" href="../../favicon.svg" />
+    <link rel="stylesheet" href="../../style.css" />
+    <link rel="stylesheet" href="../../tool.css" />
+    <link rel="stylesheet" href="../../ads.css" />
+    <link rel="stylesheet" href="../../generator-tools.css" />
+    <link rel="stylesheet" href="../../utility-pages.css" />
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3160571902547760" crossorigin="anonymous"></script>
+  </head>
+  <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WSBDKFCL" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+    <header class="topbar">
+      <a class="brand" href="../../"><img src="../../favicon.svg" alt="" /><span>Tool<span>Home</span></span></a>
+      <nav><a href="../../#tools">All tools</a><a href="../../#faq">FAQ</a></nav>
+    </header>
+<main class="tool-page"><p class="crumbs"><a href="../../">Home</a> / <a href="../../#tools">Tools</a> / Unicode Text Normalizer</p><p class="eyebrow">Free browser utility</p><h1>Unicode Text Normalizer</h1><p class="lead">Compare Unicode normalization forms and inspect the underlying code points of visually similar text.</p><section class="tool-shell"><div class="panel-stack"><div class="field-grid"><label for="mode">Normalization form<select id="mode"><option>NFC</option><option>NFD</option><option>NFKC</option><option>NFKD</option></select></label></div><label class="output-label" for="source">Input</label><textarea id="source" spellcheck="false" placeholder="Enter input here..."></textarea><div class="tool-controls"><button id="sample" type="button">Load sample</button><button id="copy" type="button">Copy result</button><button id="clear" type="button" class="alt">Clear</button></div><div class="summary-card"><p id="status" class="status-note info" aria-live="polite"></p><label class="output-label" for="output">Result</label><textarea id="output" class="readonly-output" readonly></textarea><label for="details">Code point comparison</label><textarea id="details" class="readonly-output" readonly></textarea></div></div></section><aside class="ad-space" aria-label="Advertisement">Advertisement</aside><article class="tool-content"><h2>How to normalize Unicode text</h2><ol><li>Paste text and select a normalization form.</li><li>Read the normalized text and compare the code point sequences.</li><li>Copy the normalized result into your document or dataset.</li></ol><h2>Canonical versus compatibility forms</h2><p>NFC composes canonical sequences where possible; NFD decomposes them. For example, an e followed by U+0301 becomes U+00E9 in NFC. NFKC and NFKD also apply compatibility mappings: full-width letters and ligatures can become ordinary letters. These mappings can remove meaningful formatting distinctions.</p><h2>What normalization does not do</h2><p>This tool does not translate, change case, remove accents, or detect look-alike characters. Code point counts are not visible character counts. Input whitespace is preserved. The inspector shows the first 200 code points; the normalized result includes all input, up to 100,000 UTF-16 units.</p><h2>Local text processing</h2><p>Normalization runs locally in JavaScript without uploading your text.</p><h2>Related tools</h2><p class="related"><a href="../utf8-byte-counter/">UTF-8 Byte Counter</a><a href="../utf8-text-hex-converter/">UTF-8 Text &amp; Hex Converter</a></p></article></main><script src="../../unicode-text-normalizer.js"></script></body></html>
