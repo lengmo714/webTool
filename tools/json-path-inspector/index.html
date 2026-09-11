@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-WSBDKFCL');</script>
+<!-- End Google Tag Manager -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="Inspect JSON leaf values and their exact JSON Pointer paths, including array indexes and escaped object keys, directly in your browser."
+    />
+    <meta
+      name="keywords"
+      content="list json leaf paths online,json pointer inspector array indexes,extract json paths and values"
+    />
+    <link rel="canonical" href="https://debugleaf.com/tools/json-path-inspector/" />
+    <title>JSON Path Inspector - List Leaf Values as JSON Pointers | Tool Home</title>
+    <link rel="icon" href="../../favicon.svg" />
+    <link rel="stylesheet" href="../../style.css" />
+    <link rel="stylesheet" href="../../tool.css" />
+    <link rel="stylesheet" href="../../ads.css" />
+    <link rel="stylesheet" href="../../generator-tools.css" />
+    <link rel="stylesheet" href="../../utility-pages.css" />
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3160571902547760" crossorigin="anonymous"></script>
+  </head>
+  <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WSBDKFCL" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+    <header class="topbar">
+      <a class="brand" href="../../"><img src="../../favicon.svg" alt="" /><span>Tool<span>Home</span></span></a>
+      <nav><a href="../../#tools">All tools</a><a href="../../#faq">FAQ</a></nav>
+    </header>
+<main class="tool-page"><p class="crumbs"><a href="../../">Home</a> / <a href="../../#tools">Tools</a> / JSON Path Inspector</p><p class="eyebrow">Free browser utility</p><h1>JSON Path Inspector</h1><p class="lead">Inspect JSON leaf values and their exact JSON Pointer paths, including array indexes and escaped object keys, directly in your browser.</p><section class="tool-shell"><div class="panel-stack"><div class="field-grid"></div><label class="output-label" for="source">Input</label><textarea id="source" spellcheck="false" placeholder="Paste a JSON object, array, or primitive to inspect its leaf paths."></textarea><div class="tool-controls"><button id="sample" type="button">Load sample</button><button id="copy" type="button">Copy result</button><button id="clear" type="button" class="alt">Clear</button></div><div class="summary-card"><p id="status" class="status-note info" aria-live="polite"></p><label class="output-label" for="output">Result</label><textarea id="output" class="readonly-output" readonly></textarea></div></div></section><aside class="ad-space" aria-label="Advertisement">Advertisement</aside><article class="tool-content"><h2>How to inspect JSON paths</h2><ol><li>Paste valid JSON or load the sample.</li><li>Read one JSON record per leaf, with pointer, type, and value fields.</li><li>Copy the newline-delimited records into your debugging notes.</li></ol><h2>JSON Pointer syntax</h2><p>The name of this tool refers to inspecting paths, not executing JSONPath queries. It outputs JSON Pointer strings: /user/name selects the name key inside user, and /user/roles/0 selects the first role. A tilde in a key becomes ~0 and a slash becomes ~1, so the key a/b is represented by /a~1b.</p><h2>Root values and empty containers</h2><p>The empty pointer string selects the document root. Empty objects and arrays are included as leaves so they are not lost. Null, booleans, strings, and numbers are labeled by type. Output uses one compact JSON object per line, keeping embedded newlines in values escaped.</p><h2>Limits and number precision</h2><p>Input is limited to 200,000 characters and 10,000 visited values. Standard browser JSON parsing applies: duplicate keys keep their final value, and very large numbers may lose precision. Non-finite numbers are rejected; represent exact large identifiers as strings. Parsing happens locally without uploading your JSON.</p><h2>Related tools</h2><p class="related"><a href="../json-formatter-validator/">JSON Formatter &amp; Validator</a><a href="../json-string-escape/">JSON String Escape &amp; Unescape</a></p></article></main><script src="../../json-path-inspector.js"></script></body></html>
