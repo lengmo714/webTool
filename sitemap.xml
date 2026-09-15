@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>${1}2026-09-14</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://debugleaf.com/</loc><lastmod>2026-09-15</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
   <url><loc>https://debugleaf.com/tools/word-counter/</loc><lastmod>2026-08-24</lastmod></url>
   <url><loc>https://debugleaf.com/tools/character-counter/</loc><lastmod>2026-08-24</lastmod></url>
   <url><loc>https://debugleaf.com/tools/case-converter/</loc><lastmod>2026-08-24</lastmod></url>
@@ -49,4 +49,6 @@
   <url><loc>https://debugleaf.com/tools/data-size-converter/</loc><lastmod>2026-09-14</lastmod></url>
   <url><loc>https://debugleaf.com/tools/caesar-cipher/</loc><lastmod>2026-09-14</lastmod></url>
   <url><loc>https://debugleaf.com/tools/percentage-change-calculator/</loc><lastmod>2026-09-14</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/line-number-generator/</loc><lastmod>2026-09-15</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/date-difference-calculator/</loc><lastmod>2026-09-15</lastmod></url>
 </urlset>
