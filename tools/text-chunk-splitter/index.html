@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-WSBDKFCL');</script>
+<!-- End Google Tag Manager -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="Split text into fixed-size Unicode code point chunks and copy a JSON array that preserves every space and line break for easy reconstruction."
+    />
+    <meta
+      name="keywords"
+      content="split text into fixed length chunks online,unicode text chunk splitter,json array text segments generator"
+    />
+    <link rel="canonical" href="https://debugleaf.com/tools/text-chunk-splitter/" />
+    <title>Text Chunk Splitter | Tool Home</title>
+    <link rel="icon" href="../../favicon.svg" />
+    <link rel="stylesheet" href="../../style.css" />
+    <link rel="stylesheet" href="../../tool.css" />
+    <link rel="stylesheet" href="../../ads.css" />
+    <link rel="stylesheet" href="../../generator-tools.css" />
+    <link rel="stylesheet" href="../../utility-pages.css" />
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3160571902547760" crossorigin="anonymous"></script>
+  </head>
+  <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WSBDKFCL" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+    <header class="topbar">
+      <a class="brand" href="../../"><img src="../../favicon.svg" alt="" /><span>Tool<span>Home</span></span></a>
+      <nav><a href="../../#tools">All tools</a><a href="../../#faq">FAQ</a></nav>
+    </header>
+<main class="tool-page"><p class="crumbs"><a href="../../">Home</a> / <a href="../../#tools">Tools</a> / Text Chunk Splitter</p><p class="eyebrow">Free browser utility</p><h1>Text Chunk Splitter</h1><p class="lead">Split text into fixed-size Unicode code point chunks and copy a JSON array that preserves every space and line break for easy reconstruction.</p><section class="tool-shell"><div class="panel-stack"><div class="field-grid"><label for="size">Code points per chunk<input id="size" type="number" min="1" max="10000" value="100" /></label></div><label for="input">Input</label><textarea id="input" rows="8" spellcheck="false"></textarea><div class="tool-controls"><button id="sample" type="button">Load sample</button><button id="copy" type="button">Copy result</button><button id="clear" type="button" class="alt">Clear</button></div><div class="summary-card"><p id="status" class="status-note info" aria-live="polite"></p><label for="output">Result</label><textarea id="output" class="readonly-output" rows="12" readonly></textarea></div></div></section><aside class="ad-space" aria-label="Advertisement">Advertisement</aside><article class="tool-content"><h2>How to split text into chunks</h2><p>Paste text and choose a chunk size from 1 to 10,000 code points. Copy the resulting JSON array into your script or workflow. The final chunk may be shorter. Empty input produces an empty array.</p><h2>Lossless text segments</h2><p>Every space, tab, and line break is retained in the input value. JSON escapes line breaks and quotes so each chunk stays unambiguous. After parsing the array, joining its strings with an empty separator reconstructs the input. Browser textareas may normalize pasted CRLF line endings to LF.</p><h2>Unicode and size limits</h2><p>Chunks count Unicode code points, not UTF-8 bytes or visible grapheme clusters. A single emoji code point stays intact, but combining accents and multi-code-point emoji sequences can cross a boundary. Words can also be split. Input is limited to 100,000 UTF-16 units and output to 10,000 chunks.</p><h2>Related tools</h2><p class="related"><a href="../utf8-byte-counter/">UTF-8 Byte Counter</a><a href="../json-string-escape/">JSON String Escape and Unescape</a></p><h2>Where is my input processed?</h2><p>Conversions run locally in your browser. Your input is not submitted for processing.</p></article></main><script src="../../text-chunk-splitter.js"></script></body></html>
