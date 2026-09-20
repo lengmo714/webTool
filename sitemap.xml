@@ -59,4 +59,57 @@
   <url><loc>https://debugleaf.com/tools/text-chunk-splitter/</loc><lastmod>2026-09-18</lastmod></url>
   <url><loc>https://debugleaf.com/tools/temperature-converter/</loc><lastmod>2026-09-20</lastmod></url>
   <url><loc>https://debugleaf.com/tools/tsv-transposer/</loc><lastmod>2026-09-20</lastmod></url>
++  <url><loc>https://debugleaf.com/tools/age-calculator/</loc><lastmod>2026-09-20</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/bmi-calculator/</loc><lastmod>2026-09-20</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/tip-calculator/</loc><lastmod>2026-09-20</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/discount-calculator/</loc><lastmod>2026-09-20</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/sales-tax-calculator/</loc><lastmod>2026-09-20</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/compound-interest-calculator/</loc><lastmod>2026-09-20</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/simple-interest-calculator/</loc><lastmod>2026-09-20</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/ratio-simplifier/</loc><lastmod>2026-09-20</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/average-calculator/</loc><lastmod>2026-09-20</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/median-mode-calculator/</loc><lastmod>2026-09-20</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/prime-checker/</loc><lastmod>2026-09-20</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/prime-factorization/</loc><lastmod>2026-09-20</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/perfect-number-checker/</loc><lastmod>2026-09-20</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/fibonacci-generator/</loc><lastmod>2026-09-20</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/random-number-generator/</loc><lastmod>2026-09-20</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/text-reverser/</loc><lastmod>2026-09-20</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/remove-punctuation/</loc><lastmod>2026-09-20</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/whitespace-visualizer/</loc><lastmod>2026-09-20</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/newline-to-comma/</loc><lastmod>2026-09-20</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/comma-to-newline/</loc><lastmod>2026-09-20</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/extract-numbers/</loc><lastmod>2026-09-20</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/extract-urls/</loc><lastmod>2026-09-20</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/extract-hashtags/</loc><lastmod>2026-09-20</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/text-trimmer/</loc><lastmod>2026-09-20</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/word-capitalizer/</loc><lastmod>2026-09-20</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/palindrome-checker/</loc><lastmod>2026-09-20</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/anagram-checker/</loc><lastmod>2026-09-20</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/alphabetize-words/</loc><lastmod>2026-09-20</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/count-lines/</loc><lastmod>2026-09-20</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/count-vowels-consonants/</loc><lastmod>2026-09-20</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/json-to-yaml/</loc><lastmod>2026-09-20</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/yaml-to-json/</loc><lastmod>2026-09-20</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/html-minifier/</loc><lastmod>2026-09-20</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/css-minifier/</loc><lastmod>2026-09-20</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/javascript-minifier/</loc><lastmod>2026-09-20</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/url-parser/</loc><lastmod>2026-09-20</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/query-string-builder/</loc><lastmod>2026-09-20</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/html-tag-stripper/</loc><lastmod>2026-09-20</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/color-hex-validator/</loc><lastmod>2026-09-20</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/rgb-to-hex/</loc><lastmod>2026-09-20</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/hsl-to-hex/</loc><lastmod>2026-09-20</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/decimal-to-fraction/</loc><lastmod>2026-09-20</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/fraction-to-decimal/</loc><lastmod>2026-09-20</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/binary-to-decimal/</loc><lastmod>2026-09-20</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/decimal-to-binary/</loc><lastmod>2026-09-20</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/modulo-calculator/</loc><lastmod>2026-09-20</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/power-calculator/</loc><lastmod>2026-09-20</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/logarithm-calculator/</loc><lastmod>2026-09-20</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/date-addition-calculator/</loc><lastmod>2026-09-20</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/iso-date-converter/</loc><lastmod>2026-09-20</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/seconds-to-time/</loc><lastmod>2026-09-20</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/random-string-generator/</loc><lastmod>2026-09-20</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/slug-word-counter/</loc><lastmod>2026-09-20</lastmod></url>
 </urlset>
