@@ -117,6 +117,8 @@ const extraTools = [
   ["slug-word-counter","utility","•","Slug Word Counter","Process slug word counter quickly in your browser.","slug word counter online tool"],
 ] .map(([slug, cat, icon, name, desc, keywords]) => ({ slug, cat, icon, name, desc, keywords }));
 tools.push(...extraTools);
+tools.push({"slug":"decimal-rounding-calculator","cat":"utility","icon":"#","name":"Exact Decimal Rounding Calculator","desc":"Round decimal strings without floating-point errors. Choose decimal places and half-away-from-zero, floor, ceiling, or truncation.","keywords":"exact decimal rounding online,round decimal without floating point errors,negative number floor ceiling calculator"});
+tools.push({"slug":"combinations-permutations-calculator","cat":"utility","icon":"#","name":"Combinations and Permutations Calculator","desc":"Calculate exact nCr combinations and nPr permutations without repetition using big integer arithmetic for up to 1,000 items.","keywords":"exact ncr npr calculator online,combinations without repetition calculator,large integer permutation calculator"});
 
 const grid = document.querySelector('#tools-grid');
 let active = 'all';
