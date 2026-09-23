@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://debugleaf.com/</loc><lastmod>2026-09-22</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://debugleaf.com/</loc><lastmod>2026-09-23</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
   <url><loc>https://debugleaf.com/tools/word-counter/</loc><lastmod>2026-08-24</lastmod></url>
   <url><loc>https://debugleaf.com/tools/character-counter/</loc><lastmod>2026-08-24</lastmod></url>
   <url><loc>https://debugleaf.com/tools/case-converter/</loc><lastmod>2026-08-24</lastmod></url>
@@ -116,4 +116,6 @@
   <url><loc>https://debugleaf.com/tools/tsv-to-html-table/</loc><lastmod>2026-09-21</lastmod></url>
   <url><loc>https://debugleaf.com/tools/decimal-rounding-calculator/</loc><lastmod>2026-09-22</lastmod></url>
   <url><loc>https://debugleaf.com/tools/combinations-permutations-calculator/</loc><lastmod>2026-09-22</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/resistor-color-code-calculator/</loc><lastmod>2026-09-23</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/bitwise-calculator/</loc><lastmod>2026-09-23</lastmod></url>
 </urlset>

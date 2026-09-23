@@ -120,6 +120,9 @@ tools.push(...extraTools);
 tools.push({"slug":"decimal-rounding-calculator","cat":"utility","icon":"#","name":"Exact Decimal Rounding Calculator","desc":"Round decimal strings without floating-point errors. Choose decimal places and half-away-from-zero, floor, ceiling, or truncation.","keywords":"exact decimal rounding online,round decimal without floating point errors,negative number floor ceiling calculator"});
 tools.push({"slug":"combinations-permutations-calculator","cat":"utility","icon":"#","name":"Combinations and Permutations Calculator","desc":"Calculate exact nCr combinations and nPr permutations without repetition using big integer arithmetic for up to 1,000 items.","keywords":"exact ncr npr calculator online,combinations without repetition calculator,large integer permutation calculator"});
 
+tools.push({"slug":"resistor-color-code-calculator","cat":"utility","icon":"#","name":"Four-Band Resistor Color Code Calculator","desc":"Decode four resistor color bands into resistance in ohms, tolerance, and minimum and maximum values directly in your browser.","keywords":"four band resistor color code calculator,resistor tolerance range calculator,decode resistor bands to ohms"});
+tools.push({"slug":"bitwise-calculator","cat":"utility","icon":"#","name":"Fixed-Width Bitwise Calculator","desc":"Calculate unsigned AND, OR, XOR, NOT, and logical shifts at 8, 16, 32, or 64 bits, with exact decimal, binary, and hexadecimal results.","keywords":"unsigned 64 bit bitwise calculator,bitwise and or xor calculator online,fixed width logical shift calculator"});
+
 const grid = document.querySelector('#tools-grid');
 let active = 'all';
 let query = '';
