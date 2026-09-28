@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-WSBDKFCL');</script>
+<!-- End Google Tag Manager -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content="Encode consecutive repeated Unicode characters as JSON count pairs or decode those pairs back into the original text locally." />
+    <meta name="keywords" content="run length encode text json online,decode character count pairs,unicode repeated character encoder" />
+    <link rel="canonical" href="https://debugleaf.com/tools/text-run-length-encoder/" />
+    <title>Text Run-Length Encoder | Tool Home</title>
+    <link rel="icon" href="../../favicon.svg" />
+    <link rel="stylesheet" href="../../style.css" />
+    <link rel="stylesheet" href="../../tool.css" />
+    <link rel="stylesheet" href="../../ads.css" />
+    <link rel="stylesheet" href="../../generator-tools.css" />
+    <link rel="stylesheet" href="../../utility-pages.css" />
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3160571902547760" crossorigin="anonymous"></script>
+  </head>
+  <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WSBDKFCL" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+    <header class="topbar">
+      <a class="brand" href="../../"><img src="../../favicon.svg" alt="" /><span>Tool<span>Home</span></span></a>
+      <nav><a href="../../#tools">All tools</a><a href="../../#faq">FAQ</a></nav>
+    </header>
+<main class="tool-page"><p class="crumbs"><a href="../../">Home</a> / <a href="../../#tools">Tools</a> / Text Run-Length Encoder</p><p class="eyebrow">Free browser utility</p><h1>Text Run-Length Encoder</h1><p class="lead">Encode consecutive repeated Unicode characters as JSON count pairs or decode those pairs back into the original text locally.</p><section class="tool-shell"><div class="panel-stack"><label for="input0">Text or JSON pairs<textarea id="input0" rows="9" spellcheck="false">aaabb😀😀</textarea></label><label for="input1">Mode<select id="input1"><option value="encode">Encode text to JSON</option><option value="decode">Decode JSON to text</option></select></label><div class="tool-controls"><button id="sample" type="button">Load sample</button><button id="clear" type="button">Clear</button><button id="copy" type="button">Copy result</button></div><div class="summary-card"><p id="status" class="status-note info" aria-live="polite"></p><label for="output">Result</label><textarea id="output" class="readonly-output" readonly></textarea></div></div></section><aside class="ad-space" aria-label="Advertisement">Advertisement</aside><article class="tool-content"><h2>Encode consecutive repeated characters</h2><p>Encode converts text into JSON pairs of a character and a count. For example, aaabb becomes [["a",3],["b",2]]. Only adjacent identical characters are combined. Select Decode and paste the JSON pairs to restore the original text.</p><h2>Unicode and exact restoration</h2><p>Characters are Unicode code points, so an emoji code point is kept whole. A visible symbol composed of multiple code points may span several pairs. Spaces, tabs and newlines are preserved through JSON escaping. Empty text encodes as an empty array. Decoding an empty array returns empty text.</p><h2>Format, limits and privacy</h2><p>Each pair must contain one Unicode code point and a positive integer count. Input and decoded output are limited to 100,000 UTF-16 code units; encoded JSON may be larger. This is an educational and data inspection format, not a general file compressor. Processing happens locally in your browser.</p><h2>Related tools</h2><p class="related"><a href="../utf8-byte-counter/">Utf8 Byte Counter</a><a href="../json-formatter-validator/">Json Formatter Validator</a></p></article></main><script src="../../text-run-length-encoder.js"></script></body></html>

@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-WSBDKFCL');</script>
+<!-- End Google Tag Manager -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content="Count the trailing decimal zeros of n factorial exactly without expanding the factorial, with a breakdown of the powers of five that contribute." />
+    <meta name="keywords" content="factorial trailing zeros calculator,number of ending zeros in n factorial,powers of five factorial zero count" />
+    <link rel="canonical" href="https://debugleaf.com/tools/factorial-trailing-zeros-calculator/" />
+    <title>Factorial Trailing Zeros Calculator | Tool Home</title>
+    <link rel="icon" href="../../favicon.svg" />
+    <link rel="stylesheet" href="../../style.css" />
+    <link rel="stylesheet" href="../../tool.css" />
+    <link rel="stylesheet" href="../../ads.css" />
+    <link rel="stylesheet" href="../../generator-tools.css" />
+    <link rel="stylesheet" href="../../utility-pages.css" />
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3160571902547760" crossorigin="anonymous"></script>
+  </head>
+  <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WSBDKFCL" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+    <header class="topbar">
+      <a class="brand" href="../../"><img src="../../favicon.svg" alt="" /><span>Tool<span>Home</span></span></a>
+      <nav><a href="../../#tools">All tools</a><a href="../../#faq">FAQ</a></nav>
+    </header>
+<main class="tool-page"><p class="crumbs"><a href="../../">Home</a> / <a href="../../#tools">Tools</a> / Factorial Trailing Zeros Calculator</p><p class="eyebrow">Free browser utility</p><h1>Factorial Trailing Zeros Calculator</h1><p class="lead">Count the trailing decimal zeros of n factorial exactly without expanding the factorial, with a breakdown of the powers of five that contribute.</p><section class="tool-shell"><div class="panel-stack"><div class="field-grid"><label for="number">Factorial input n (0 to 10^100)<input id="number" type="text" inputmode="numeric" value="100" spellcheck="false" /></label></div><div class="tool-controls"><button id="sample" type="button">Load sample</button><button id="clear" type="button">Clear</button><button id="copy" type="button">Copy result</button></div><div class="summary-card"><p id="status" class="status-note info" aria-live="polite"></p><label class="output-label" for="output">Result</label><textarea id="output" class="readonly-output" readonly></textarea></div></div></section><aside class="ad-space" aria-label="Advertisement">Advertisement</aside><article class="tool-content"><h2>Count zeros without calculating the factorial</h2><p>Enter n to count how many zeros occur at the end of n! in decimal notation. For example, 100! ends in 24 zeros. This tool also shows each nonzero contribution from a power of five.</p><h2>Why powers of five matter</h2><p>Every trailing zero requires a factor of 10, made from 2 × 5. Factorials contain at least as many factors of two as factors of five, so count the fives: floor(n/5) + floor(n/25) + floor(n/125) and so on. Multiples of 25 contribute a second five; multiples of 125 contribute a third.</p><h2>Limits and special cases</h2><p>Enter a whole number from 0 through 10^100, without separators or scientific notation. Since 0! = 1, its trailing-zero count is zero. The count uses exact BigInt arithmetic. This tool counts ending zeros in base ten, not all zero digits inside a factorial. Processing stays in your browser.</p><h2>Related tools</h2><p class="related"><a href="../combinations-permutations-calculator/">Combinations and Permutations</a><a href="../prime-factorization/">Prime Factorization</a></p></article></main><script src="../../factorial-trailing-zeros-calculator.js"></script></body></html>

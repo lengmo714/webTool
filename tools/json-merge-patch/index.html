@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-WSBDKFCL');</script>
+<!-- End Google Tag Manager -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content="Apply a JSON merge patch to a target document: merge object members, remove keys with null, and replace arrays locally in your browser." />
+    <meta name="keywords" content="apply json merge patch online,merge json objects null delete keys,json merge patch array replacement" />
+    <link rel="canonical" href="https://debugleaf.com/tools/json-merge-patch/" />
+    <title>JSON Merge Patch Tool | Tool Home</title>
+    <link rel="icon" href="../../favicon.svg" />
+    <link rel="stylesheet" href="../../style.css" />
+    <link rel="stylesheet" href="../../tool.css" />
+    <link rel="stylesheet" href="../../ads.css" />
+    <link rel="stylesheet" href="../../generator-tools.css" />
+    <link rel="stylesheet" href="../../utility-pages.css" />
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3160571902547760" crossorigin="anonymous"></script>
+  </head>
+  <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WSBDKFCL" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+    <header class="topbar">
+      <a class="brand" href="../../"><img src="../../favicon.svg" alt="" /><span>Tool<span>Home</span></span></a>
+      <nav><a href="../../#tools">All tools</a><a href="../../#faq">FAQ</a></nav>
+    </header>
+<main class="tool-page"><p class="crumbs"><a href="../../">Home</a> / <a href="../../#tools">Tools</a> / JSON Merge Patch Tool</p><p class="eyebrow">Free browser utility</p><h1>JSON Merge Patch Tool</h1><p class="lead">Apply a JSON merge patch to a target document: merge object members, remove keys with null, and replace arrays locally in your browser.</p><section class="tool-shell"><div class="panel-stack"><div class="field-grid"><label for="input0">Target JSON<textarea id="input0" spellcheck="false" rows="10">{&quot;title&quot;:&quot;Draft&quot;,&quot;tags&quot;:[&quot;old&quot;],&quot;author&quot;:{&quot;name&quot;:&quot;Alex&quot;,&quot;email&quot;:&quot;old@example.com&quot;}}</textarea></label><label for="input1">Merge patch JSON<textarea id="input1" spellcheck="false" rows="10">{&quot;title&quot;:&quot;Published&quot;,&quot;tags&quot;:[&quot;new&quot;],&quot;author&quot;:{&quot;email&quot;:null}}</textarea></label></div><div class="tool-controls"><button id="sample" type="button">Load sample</button><button id="clear" type="button">Clear</button><button id="copy" type="button">Copy result</button></div><div class="summary-card"><p id="status" class="status-note info" aria-live="polite"></p><label class="output-label" for="output">Result</label><textarea id="output" class="readonly-output" readonly></textarea></div></div></section><aside class="ad-space" aria-label="Advertisement">Advertisement</aside><article class="tool-content"><h2>Apply a merge patch</h2><p>Paste a target JSON document and a patch. Object members are merged recursively. A null member in the patch removes that key, while arrays and scalar values replace the corresponding target value. The sample changes a title, replaces tags, and removes an email.</p><h2>Replacement and deletion rules</h2><p>An object patch applied to a non-object starts with an empty object. A non-object patch replaces the entire target, so a top-level null produces null. Arrays are replaced as a whole; this is not an operation-list JSON Patch editor. A null object member requests deletion and cannot be used to assign a literal null member.</p><h2>Input limits and privacy</h2><p>Both inputs must be valid JSON, up to 100,000 characters each and 100 levels deep. Numbers use standard JavaScript precision; quote identifiers and integers that exceed its safe integer range. Duplicate keys follow JSON parsing rules: the last value wins. Document processing happens in your browser.</p><h2>Related tools</h2><p class="related"><a href="../json-formatter-validator/">Json Formatter Validator</a><a href="../json-path-inspector/">Json Path Inspector</a></p></article></main><script src="../../json-merge-patch.js"></script></body></html>
