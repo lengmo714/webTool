@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://debugleaf.com/</loc><lastmod>2026-09-28</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://debugleaf.com/</loc><lastmod>2026-10-02</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
   <url><loc>https://debugleaf.com/tools/word-counter/</loc><lastmod>2026-08-24</lastmod></url>
   <url><loc>https://debugleaf.com/tools/character-counter/</loc><lastmod>2026-08-24</lastmod></url>
   <url><loc>https://debugleaf.com/tools/case-converter/</loc><lastmod>2026-08-24</lastmod></url>
@@ -128,4 +128,12 @@
   <url><loc>https://debugleaf.com/tools/text-line-interleaver/</loc><lastmod>2026-09-27</lastmod></url>
   <url><loc>https://debugleaf.com/tools/text-line-slice-extractor/</loc><lastmod>2026-09-28</lastmod></url>
   <url><loc>https://debugleaf.com/tools/text-run-length-encoder/</loc><lastmod>2026-09-28</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/integer-digit-analyzer/</loc><lastmod>2026-09-29</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/text-line-keyword-filter/</loc><lastmod>2026-09-29</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/integer-division-calculator/</loc><lastmod>2026-09-30</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/text-common-prefix-finder/</loc><lastmod>2026-09-30</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/text-line-length-analyzer/</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/number-sequence-gap-finder/</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/unicode-code-point-inspector/</loc><lastmod>2026-10-02</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/integer-bit-length-calculator/</loc><lastmod>2026-10-02</lastmod></url>
 </urlset>

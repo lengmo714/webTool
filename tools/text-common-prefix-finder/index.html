@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-WSBDKFCL');</script>
+<!-- End Google Tag Manager -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content="Find the longest case-sensitive prefix shared by every text line, count its Unicode code points, and remove it from all lines locally." />
+    <meta name="keywords" content="longest common prefix text lines online,remove shared prefix from list,unicode common starting text finder" />
+    <link rel="canonical" href="https://debugleaf.com/tools/text-common-prefix-finder/" />
+    <title>Text Line Common Prefix Finder | Tool Home</title>
+    <link rel="icon" href="../../favicon.svg" />
+    <link rel="stylesheet" href="../../style.css" />
+    <link rel="stylesheet" href="../../tool.css" />
+    <link rel="stylesheet" href="../../ads.css" />
+    <link rel="stylesheet" href="../../generator-tools.css" />
+    <link rel="stylesheet" href="../../utility-pages.css" />
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3160571902547760" crossorigin="anonymous"></script>
+  </head>
+  <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WSBDKFCL" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+    <header class="topbar">
+      <a class="brand" href="../../"><img src="../../favicon.svg" alt="" /><span>Tool<span>Home</span></span></a>
+      <nav><a href="../../#tools">All tools</a><a href="../../#faq">FAQ</a></nav>
+    </header>
+<main class="tool-page"><p class="crumbs"><a href="../../">Home</a> / <a href="../../#tools">Tools</a> / Text Line Common Prefix Finder</p><p class="eyebrow">Free browser utility</p><h1>Text Line Common Prefix Finder</h1><p class="lead">Find the longest case-sensitive prefix shared by every text line, count its Unicode code points, and remove it from all lines locally.</p><section class="tool-shell"><div class="panel-stack"><label for="input0">Text lines<textarea id="input0" rows="8" spellcheck="false">project/src/main.js
+project/src/app.js
+project/src/style.css</textarea></label><div class="tool-controls"><button id="sample" type="button">Load sample</button><button id="clear" type="button">Clear</button><button id="copy" type="button">Copy result</button></div><div class="summary-card"><p id="status" class="status-note info" aria-live="polite"></p><label for="output">Result</label><textarea id="output" rows="15" class="readonly-output" readonly></textarea></div></div></section><aside class="ad-space" aria-label="Advertisement">Advertisement</aside><article class="tool-content"><h2>Find the shared start of a list</h2><p>Paste file paths, identifiers, or other text with one item per line. This tool finds the longest exact prefix present at the start of every line, then shows the lines with that prefix removed. For project/src/a.js and project/src/b.js, the shared prefix is project/src/.</p><h2>Whitespace, blank lines, and Unicode</h2><p>Matching is case-sensitive and preserves whitespace. Every line counts, including a trailing blank line, which makes the common prefix empty. CRLF and CR line endings are normalized to LF. Unicode code points are kept whole, so an emoji is never cut in half; combining sequences are not normalized.</p><h2>Read the result</h2><p>The prefix is shown as a JSON string so tabs and spaces are unambiguous. A single line is its own common prefix. The output includes the prefix length and the remaining lines. Input is limited to 200,000 UTF-16 code units and stays in your browser.</p><h2>Related tools</h2><p class="related"><a href="../line-prefix-suffix/">Line Prefix Suffix</a><a href="../text-line-keyword-filter/">Text Line Keyword Filter</a></p></article></main><script src="../../text-common-prefix-finder.js"></script></body></html>
