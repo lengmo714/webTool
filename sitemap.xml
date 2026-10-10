@@ -136,4 +136,36 @@
   <url><loc>https://debugleaf.com/tools/number-sequence-gap-finder/</loc><lastmod>2026-10-01</lastmod></url>
   <url><loc>https://debugleaf.com/tools/unicode-code-point-inspector/</loc><lastmod>2026-10-02</lastmod></url>
   <url><loc>https://debugleaf.com/tools/integer-bit-length-calculator/</loc><lastmod>2026-10-02</lastmod></url>
+  <!-- BEGIN 30 NEW TOOLS -->
+  <url><loc>https://debugleaf.com/tools/sentence-counter/</loc><lastmod>2026-10-10</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/paragraph-counter/</loc><lastmod>2026-10-10</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/text-ngram-generator/</loc><lastmod>2026-10-10</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/longest-word-finder/</loc><lastmod>2026-10-10</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/repeated-word-finder/</loc><lastmod>2026-10-10</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/nato-phonetic-converter/</loc><lastmod>2026-10-10</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/rot47-cipher/</loc><lastmod>2026-10-10</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/regex-escape/</loc><lastmod>2026-10-10</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/markdown-heading-outline/</loc><lastmod>2026-10-10</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/markdown-link-extractor/</loc><lastmod>2026-10-10</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/html-heading-extractor/</loc><lastmod>2026-10-10</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/css-specificity-calculator/</loc><lastmod>2026-10-10</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/css-px-rem-converter/</loc><lastmod>2026-10-10</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/json-key-sorter/</loc><lastmod>2026-10-10</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/json-flattener/</loc><lastmod>2026-10-10</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/json-array-deduplicator/</loc><lastmod>2026-10-10</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/csv-column-extractor/</loc><lastmod>2026-10-10</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/csv-row-counter/</loc><lastmod>2026-10-10</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/csv-column-profiler/</loc><lastmod>2026-10-10</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/iso-week-calculator/</loc><lastmod>2026-10-10</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/day-of-year-calculator/</loc><lastmod>2026-10-10</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/weekday-calculator/</loc><lastmod>2026-10-10</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/business-day-calculator/</loc><lastmod>2026-10-10</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/prime-range-generator/</loc><lastmod>2026-10-10</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/divisor-list-generator/</loc><lastmod>2026-10-10</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/triangular-number-calculator/</loc><lastmod>2026-10-10</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/distance-converter/</loc><lastmod>2026-10-10</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/speed-converter/</loc><lastmod>2026-10-10</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/area-converter/</loc><lastmod>2026-10-10</lastmod></url>
+  <url><loc>https://debugleaf.com/tools/pressure-converter/</loc><lastmod>2026-10-10</lastmod></url>
+  <!-- END 30 NEW TOOLS -->
 </urlset>
